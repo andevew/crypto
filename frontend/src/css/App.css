@@ -1,0 +1,23 @@
+
+
+.wrapper{
+  height: 100vh; /* Висота всієї сторінки */
+  display: flex;
+  justify-content: start;
+  align-items: flex-start;
+  overflow: hidden;
+}
+
+.menu{
+  height: 100%; /* Робимо висоту меню на всю сторінку */
+  overflow-y: auto; /* Додаємо скрол тільки для меню */
+  width: 256px;
+}
+
+.spin{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
