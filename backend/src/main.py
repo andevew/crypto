@@ -1,11 +1,10 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-
-from src.routers import router as router_crypto
+from src.routers import router
 
 app = FastAPI()
 
-app.include_router(router_crypto)
+app.include_router(router)
 
 
 origins = [
